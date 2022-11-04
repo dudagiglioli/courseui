@@ -7,6 +7,8 @@ import { Curso } from 'src/app/core/model';
   styleUrls: ['./listacursos.component.scss']
 })
 export class ListacursosComponent implements OnInit {
+  cursos: Curso[] = []
+  displayedColumns = ['id', 'nomecurso']
 
 cursos: Curso[] = [];
 displayedColumns = ['id' , 'nomecurso'];
